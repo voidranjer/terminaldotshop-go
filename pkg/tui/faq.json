@@ -1,0 +1,46 @@
+[
+  {
+    "question": "where do you ship?",
+    "answer": "we ship all of our blends in the US, and our Flow blend in the US and the EU (not available in the UK)."
+  },
+  {
+    "question": "is your coffee ethically sourced?",
+    "answer": "absolutely."
+  },
+  {
+    "question": "is ordering via ssh secure?",
+    "answer": "you bet it is. arguably more secure than your browser. ssh incorporates encryption and authentication via a process called public key cryptography. if that doesn’t sound secure we don’t know what does."
+  },
+  {
+    "question": "what is cron?",
+    "answer": "cron is our monthly membership, available only in the US (for now). if you subscribe, you'll receive a new coffee blend every month, along with other suprises both physical and digital. learn more at trm.sh/cron. subscribe with `ssh terminal.shop -t cron`."
+  },
+  {
+    "question": "i tried to subscribe to cron, but it says i need a public key?",
+    "answer": "we don't allow subscriptions without a public key, as you won't be able to ssh back in with the same identity (we treat users without a public key as anonymous). create a key with `ssh-keygen -t rsa` and make sure your ssh client isn't omitting your key."
+  },
+  {
+    "question": "how do you store my data?",
+    "answer": "we store minimal information about you when you order through our ssh shop: name, shipping address and email, along with a fingerprint generated from your public key. all payment information is stored exclusively by Stripe."
+  },
+  {
+    "question": "do you offer a subscription?",
+    "answer": "in addition to cron, our monthly membership, you can also subscribe to any of the blends offered in our shop. subscribe after completing a purchase in the shop, or create a subscription with our API: trm.sh/api."
+  },
+  {
+    "question": "will Terminal coffee make me a better developer?",
+    "answer": "legally we cannot guarantee that it will, but..."
+  },
+  {
+    "question": "does coffee from the command line taste better than regular coffee?",
+    "answer": "it's just science!"
+  },
+  {
+    "question": "is it true your coffee contains the sweat of @theprimeagen?",
+    "answer": "we can neither confirm nor deny these rumors."
+  },
+  {
+    "question": "is it true your coffee contains the tears of @thdxr?",
+    "answer": "yes, this is true."
+  }
+]
